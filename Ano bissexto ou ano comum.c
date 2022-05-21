@@ -3,10 +3,7 @@
 #include <locale.h>
 
 /*
-Exercício 1
-Crie um algoritmo que mostre se um dado ano é bissexto ou comum.
-Nota:
-Um ano é bissexto quando é divisível por 4 e por 100 ou divisível por 400.
+Um algoritmo que mostre se um dado ano Ã© bissexto ou comum.
 */
 
 void main (){
@@ -16,13 +13,11 @@ void main (){
     scanf("%i", &bi);
 
     if(bi%4==0 && bi%100==0 || bi%400==0){
-        printf("O ano %i é bissexto", bi);
+        printf("O ano %i Ã© bissexto", bi);
     }
     else {
-        printf("o ano %i nao é um ano bissexto", bi);
+        printf("o ano %i nao Ã© um ano bissexto", bi);
     }
-
-
 
 
 }
