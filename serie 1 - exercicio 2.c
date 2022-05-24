@@ -15,7 +15,7 @@ void main (){
     printf("Digite um numero entre 0 e 50: \t");
     scanf("%i", &n1);
 
-    if (n1>=1 && n1<=10){
+    if (n1>=0 && n1<=10){
         printf("%s o numero %i que digitou pertence a primeira dezena entre os valores 0 e 10",nome, n1);
     }
     else if (n1>=11 && n1<=20){
