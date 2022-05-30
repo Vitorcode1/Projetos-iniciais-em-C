@@ -4,7 +4,7 @@
 #import <time.h>
 
 /*
-5. Escreva um programa que pergunte o dia, mês e ano do aniversário de uma pessoa
+5. Escreva um programa que pergunte o dia, mÃªs e ano do aniversÃ¡rio de uma pessoa
  e diga a faixa etaria
 */
 
@@ -21,7 +21,7 @@ void main (){
 
 
 
-if (dia>=1 && dia<=31 && mes>=1 && mes<=12 && ano>=1900 && ano<=2021){
+if (dia>=1 && dia<=31 && mes>=1 && mes<=12 && ano>=1900 && ano<=2022){
     if (ano>=1900 && ano<=1940){
         printf("%s nasceu na data %i/%i/%i e tem %i anos de idade [Dinossauro]", nome, dia, mes, ano, anoatual-ano);
     }
@@ -32,7 +32,7 @@ if (dia>=1 && dia<=31 && mes>=1 && mes<=12 && ano>=1900 && ano<=2021){
         printf("%s nasceu na data %i/%i/%i e tem %i anos de idade [Adulto]", nome, dia, mes, ano, anoatual-ano);
     }
     else if (ano>=2013 && ano<=2022){
-        printf("%s nasceu na data %i/%i/%i e tem %i anos de idade [Criança]", nome, dia, mes, ano, anoatual-ano);
+        printf("%s nasceu na data %i/%i/%i e tem %i anos de idade [CrianÃ§a]", nome, dia, mes, ano, anoatual-ano);
     }
 }
 else {
